@@ -4,7 +4,7 @@ name: FCT_LINEITEM_ORDERS_DIM_LOOKUP
 operation:
   config:
     postSQL: ""
-    preSQL: truncate table SEREGANZ.WORKDEV.FCT_LINEITEM_ORDERS_DIM_LOOKUP
+    preSQL: truncate table {{ ref('WORK', 'FCT_LINEITEM_ORDERS_DIM_LOOKUP') }}
     testsEnabled: true
   database: ""
   deployEnabled: true
