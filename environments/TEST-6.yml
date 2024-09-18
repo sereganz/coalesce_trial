@@ -1,11 +1,11 @@
 fileVersion: 1
-id: "5"
+id: "6"
 mappingDefinitions:
   SRC:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
   WORK:
     database: SEREGANZ
-    schema: WORKDEV
-name: DEV
+    schema: WORKTEST
+name: TEST
 type: Environment
